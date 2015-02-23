@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fonctionsModeles", "fonctionsModeles\fonctionsModeles.vcxproj", "{C89509FB-F109-404B-8AD0-4EF05344230F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fonctionsModelesTests", "fonctionsModelesTests\fonctionsModelesTests.vcxproj", "{2FE92353-EAFE-43C6-A05F-506F1F5C1F78}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamicArray", "dynamicArray\dynamicArray.vcxproj", "{86CE3160-6C66-4ED4-9173-F54CC1697E8F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamicArrayTests", "dynamicArrayTests\dynamicArrayTests.vcxproj", "{7BAF1A6A-EF72-4E6B-B3AC-AAD9ABAE4E89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C89509FB-F109-404B-8AD0-4EF05344230F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C89509FB-F109-404B-8AD0-4EF05344230F}.Debug|Win32.Build.0 = Debug|Win32
+		{C89509FB-F109-404B-8AD0-4EF05344230F}.Release|Win32.ActiveCfg = Release|Win32
+		{C89509FB-F109-404B-8AD0-4EF05344230F}.Release|Win32.Build.0 = Release|Win32
+		{2FE92353-EAFE-43C6-A05F-506F1F5C1F78}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2FE92353-EAFE-43C6-A05F-506F1F5C1F78}.Debug|Win32.Build.0 = Debug|Win32
+		{2FE92353-EAFE-43C6-A05F-506F1F5C1F78}.Release|Win32.ActiveCfg = Release|Win32
+		{2FE92353-EAFE-43C6-A05F-506F1F5C1F78}.Release|Win32.Build.0 = Release|Win32
+		{86CE3160-6C66-4ED4-9173-F54CC1697E8F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{86CE3160-6C66-4ED4-9173-F54CC1697E8F}.Debug|Win32.Build.0 = Debug|Win32
+		{86CE3160-6C66-4ED4-9173-F54CC1697E8F}.Release|Win32.ActiveCfg = Release|Win32
+		{86CE3160-6C66-4ED4-9173-F54CC1697E8F}.Release|Win32.Build.0 = Release|Win32
+		{7BAF1A6A-EF72-4E6B-B3AC-AAD9ABAE4E89}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7BAF1A6A-EF72-4E6B-B3AC-AAD9ABAE4E89}.Debug|Win32.Build.0 = Debug|Win32
+		{7BAF1A6A-EF72-4E6B-B3AC-AAD9ABAE4E89}.Release|Win32.ActiveCfg = Release|Win32
+		{7BAF1A6A-EF72-4E6B-B3AC-AAD9ABAE4E89}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
