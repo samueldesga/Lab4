@@ -28,12 +28,12 @@ namespace fonctionsModelesTests
 			Assert::AreEqual(MAX_ATTENDU, TrouverMax(tabInt, 5));
 		}
 
-		/*TEST_METHOD(TrouverMax_DansUnTableauDeString_DevraitRetournerLeMaximumSelonLordreAlphabetique)
+		TEST_METHOD(TrouverMax_DansUnTableauDeString_DevraitRetournerLeMaximumSelonLordreAlphabetique)
 		{
 			const string MAX_ATTENDU = "Trois";
 			string tabString[5] = { "Huit", "Cinq", "Deux", MAX_ATTENDU, "Quatre" };
 
 			Assert::AreEqual(MAX_ATTENDU, TrouverMax(tabString, 5));
-		}*/
+		}
 	};
 }
