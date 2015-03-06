@@ -29,7 +29,7 @@ T CalculerSomme(const T _tabType[], const int& nbElement)
 }
 
 template <typename T>
-unsigned int CalculerSomme(const T _valeur, const T _tabType[], const int& nbElement)
+unsigned int CompterElement(const T _valeur, const T _tabType[], const int& nbElement)
 {
 	unsigned int compteur = 0;
 
@@ -41,5 +41,5 @@ unsigned int CalculerSomme(const T _valeur, const T _tabType[], const int& nbEle
 		}
 	}
 
-	return 1;
+	return compteur;
 }

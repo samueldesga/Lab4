@@ -1,5 +1,5 @@
 #pragma once
-using namespace std;
+
 template <typename T>
 T TrouverMax(const T _tabType[], const int& nbElement);
 

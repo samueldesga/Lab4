@@ -13,10 +13,6 @@ class DynamicArray
 public:
 	DynamicArray();
 	DynamicArray(int _capacite);
-	DynamicArray(const DynamicArray<T> & _source);
-	DynamicArray<T>& operator=(const DynamicArray<T> & _source);
-	bool operator==(const DynamicArray<T> & _rhs) const;
-	void operator+=(const DynamicArray<T> & _rhs);
 	~DynamicArray();
 	void setElement(int _index, T _valeur);
 	T getElement(int _index);
@@ -24,6 +20,9 @@ public:
 	void setCapacite(int _capacite);
 
 private:
+	DynamicArray(const DynamicArray<T> & _source);
+	DynamicArray<T>& operator=(const DynamicArray<T> & _source);
+
 	T * tabElements;
 	int capacite;
 

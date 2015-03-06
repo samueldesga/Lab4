@@ -44,33 +44,6 @@ DynamicArray<T>& DynamicArray<T>::operator=(const DynamicArray<T> & _rhs) {
 	return *this;
 }
 template <class T>
-bool DynamicArray<T>::operator==(const DynamicArray<T> & _rhs) const{
-
-	if (this->capacite != _rhs.capacite){
-		return false;
-	}
-
-	for (int i = 0; i < this->capacite; i++){
-		if (this->tabElements[i] != _rhs.tabElements[i]){
-			return false;
-		}
-	}
-
-	return true;
-}
-template <class T>
-void DynamicArray<T>::operator+=(const DynamicArray<T> & _rhs) {
-	int oldCapacite = this->capacite;
-	int newCapacite = oldCapacite + _rhs.capacite;
-	this->setCapacite(newCapacite);
-	int compteur = 0;
-	for (int i = oldCapacite; i < newCapacite; i++){
-		this->setElement(i, _rhs.tabElements[compteur]);
-		compteur++;
-	}
-
-}
-template <class T>
 DynamicArray<T>::~DynamicArray(){
 
 }
