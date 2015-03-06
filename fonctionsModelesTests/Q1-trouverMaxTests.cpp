@@ -12,7 +12,7 @@ namespace fonctionsModelesTests
 
 		//QUESTION 1
 
-		TEST_METHOD(TrouverMax_DansUnTableauDeFloat_DevraitRetournerLeMaximum)
+		/*TEST_METHOD(TrouverMax_DansUnTableauDeFloat_DevraitRetournerLeMaximum)
 		{
 			const float MAX_ATTENDU = 33.1;
 			float tabFloat[5] = { 22.2f, 11.1f, MAX_ATTENDU, -55.5f, -99.9f };
@@ -34,6 +34,6 @@ namespace fonctionsModelesTests
 			string tabString[5] = { "Huit", "Cinq", "Deux", MAX_ATTENDU, "Quatre" };
 
 			Assert::AreEqual(MAX_ATTENDU, TrouverMax(tabString, 5));
-		}
+		}*/
 	};
 }

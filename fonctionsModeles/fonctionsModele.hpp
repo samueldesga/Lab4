@@ -22,8 +22,24 @@ T CalculerSomme(const T _tabType[], const int& nbElement)
 
 	for (int i = 1; i < nbElement; i++)
 	{
-			somme += _tabType[i];
+		somme += _tabType[i];
 	}
 
 	return somme;
+}
+
+template <typename T>
+unsigned int CalculerSomme(const T _valeur, const T _tabType[], const int& nbElement)
+{
+	unsigned int compteur = 0;
+
+	for (int i = 0; i < nbElement; i++)
+	{
+		if (_tabType[i] == _valeur)
+		{
+			compteur++;
+		}
+	}
+
+	return 1;
 }
